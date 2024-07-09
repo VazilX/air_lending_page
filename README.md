@@ -1,4 +1,9 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Landing page for a creative agency company.
+
+## Technologies that were used:
+  - HTML
+  - SASS
+
+## [Link to the preview](https://vazilx.github.io/dia_landing-page/)
+
+## [Link to the mockup](https://www.figma.com/design/7qwsWggv9BAxMi2VPhBuPr/Air-(formerly-Dia))?node-id=0-1)
