@@ -1,6 +1,9 @@
 .header {
   background-color: $hrder-bg-color;
-  height: 100vh;
+  min-height: 100vh;
+  height: 720px;
+  position: relative;
+
   border-radius: 0 0 30px 30px;
 
   @include on-desctop {

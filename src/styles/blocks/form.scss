@@ -41,6 +41,13 @@
       font-weight: 600;
     }
 
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-text-fill-color: $first-text-color;
+      -webkit-box-shadow: 0 0 0 1000px $hrder-bg-color inset;
+    }
+
     @include on-tablet {
       width: 362px;
     }
@@ -60,11 +67,17 @@
         height: 0;
         width: 0;
       }
+
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus {
+        -webkit-text-fill-color: $first-text-color;
+        -webkit-box-shadow: 0 0 0 1000px $hrder-bg-color inset;
+      }
     }
   }
 
   &__button {
     justify-self: center;
   }
-
 }

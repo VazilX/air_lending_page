@@ -2,6 +2,7 @@
   box-sizing: border-box;
   width: 100vw;
   height: calc(50vh - ($top-bar-pading-top-ds + $top-bar-pading-botttomn-ds + 30px));
+  min-height: $min-slider-hight;
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(44,44,44,1) 0%, rgba(242,246,250,1) 100%);

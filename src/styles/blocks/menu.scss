@@ -43,6 +43,8 @@
 }
 
 .menu-aside {
+  z-index: 100;
+
   box-sizing: border-box;
   height: 100vh;
   background-color: $hrder-bg-color;
